@@ -1,0 +1,23 @@
+function printWithZeroAndName(nb, name) {
+    let count = nb.toString()
+    while (count.length < 3) {
+        count = "0" + count
+    }
+    console.log(`${count} ${name}`)
+}
+
+function printWithZeroAndName(nb, name) {
+    let count = nb.toString()
+    while (count.length < 3) {
+        count = "0" + count
+    }
+    console.log(`${count} ${name}`)
+}
+
+function zeroPad(number, width) {
+  let string = number.toString()
+  while (string.length < width) {
+    string = "0" + string;
+  }
+  return string;
+}
